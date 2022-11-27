@@ -5,8 +5,8 @@ import { useContext } from 'react';
 import { Contexto } from '../appContext';
 
 export default function Banner() {
-  const name = 'Francisco Pantoja';
-  const email = 'franciscopantojag98@gmail.com';
+  const name = 'Oussama Mouchrit';
+  const email = 'mouchrit.oussama@gmail.com';
   const { setIsOpen } = useContext(Contexto);
 
   function openModal() {
@@ -17,21 +17,26 @@ export default function Banner() {
       <div className={`containerCont ${styles.bannerCont}`}>
         <section className={styles.bannerContLeft}>
           <h2>
-            Hi there{' '}
+            Bonjour{' '}
             <span role="img" aria-label="hello">
               👋
             </span>
-            , I'm
+            , Je suis
           </h2>
           <h1>{name}</h1>
           <h2>
-            Software Engineer <span className={styles.dash}>-</span>
+            Consultant DevOps Cloud Senior <span className={styles.dash}></span>
             <span className={styles.brH2}>
               <br />
             </span>{' '}
-            Web Developer
           </h2>
-          <h3>HTML / CSS / JS / React</h3>
+          <h2>
+            Certifié: ISTQB, Azure Administrator, Safe DevOps<span className={styles.dash}></span>
+            <span className={styles.brH2}>
+              <br />
+            </span>{' '}
+          </h2>
+          <h3>CI-CD / Continuous Testing / Infra As Code / Monitoring </h3>
           <h3>
             <a href={`mailto:${email}`}>{email}</a>
           </h3>
@@ -39,31 +44,26 @@ export default function Banner() {
             <div>
               <button className={`${styles.but}`}>
                 <a target="_blank" href="/pdf/Oussama_Mouchrit_Devops.pdf">
-                  DOWNLOAD RESUME
+                  TELECHARGER CV
                 </a>
               </button>
               <button className={`${styles.svgBut}`}>
                 <a
                   target="_blank"
-                  href="https://www.linkedin.com/in/franciscopantojaguillen/"
+                  href="https://www.linkedin.com/in/mouchritoussama/"
                 >
                   <Linkedin />
-                </a>
-              </button>
-              <button className={`${styles.svgBut}`}>
-                <a target="_blank" href="https://github.com/franciscopantojag">
-                  <Github />
                 </a>
               </button>
             </div>
 
             <button onClick={openModal} className={`${styles.but}`}>
-              CONTACT ME
+              ME CONTACTER
             </button>
           </div>
         </section>
         <figure className={styles.bannerContRight}>
-          <img alt="Francisco Pantoja" src="/images/profilePicture.jpg" />
+          <img alt="Oussama Mouchrit" src="/images/profilePicture.jpg" />
         </figure>
       </div>
     </section>
