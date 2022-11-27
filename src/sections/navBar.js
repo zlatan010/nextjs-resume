@@ -15,7 +15,7 @@ export default function NavBar() {
 
   const navLinks = [
     {
-      label: "about me",
+      label: "A propos de moi",
       target: "#about",
     },
     {
