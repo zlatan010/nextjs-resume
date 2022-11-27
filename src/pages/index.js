@@ -25,7 +25,7 @@ export default function Home() {
           name="description"
           content="Hey, this is my personal website. You can take a look at my resume, download my CV and see how you can contact me."
         />
-        <meta property="og:title" content="Francisco Pantoja" />
+        <meta property="og:title" content="Oussama MOUCHRIT" />
         <meta property="og:site_name" content="Francisco Pantoja" />
         <meta property="og:url" content="https://franciscopantojag.me" />
         <meta
