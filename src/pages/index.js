@@ -19,15 +19,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Francisco Pantoja</title>
-        <link rel="image_src" href="https://franciscopantojag.me/images/ogImage.jpg" />
+        <title>Oussama Mouchrit</title>
+        <link rel="image_src" href="https://oussama-mouchrit-resume.vercel.app/images/ogImage.jpg" />
         <meta
           name="description"
           content="Hey, this is my personal website. You can take a look at my resume, download my CV and see how you can contact me."
         />
         <meta property="og:title" content="Oussama MOUCHRIT" />
-        <meta property="og:site_name" content="Francisco Pantoja" />
-        <meta property="og:url" content="https://franciscopantojag.me" />
+        <meta property="og:site_name" content="Oussama Mouchrit" />
+        <meta property="og:url" content="https://oussama-mouchrit-resume.vercel.app" />
         <meta
           property="og:description"
           content="Hey, this is my personal website. You can take a look at my resume, download my CV and see how you can contact me"
@@ -35,11 +35,11 @@ export default function Home() {
         <meta property="og:type" content="profile" />
         <meta
           property="og:image"
-          content="https://franciscopantojag.me/images/ogImage.jpg"
+          content="https://oussama-mouchrit-resume.vercel.app/images/ogImage.jpg"
         />
         <meta property="og:image:width" content="1580"/>
         <meta property="og:image:height" content="790"/>
-        <meta name="twitter:image" content="https://franciscopantojag.me/images/ogImage.jpg"/>
+        <meta name="twitter:image" content="https://oussama-mouchrit-resume.vercel.app/images/ogImage.jpg"/>
       </Head>
       <Modal />
       <NavBar />
