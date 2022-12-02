@@ -19,11 +19,11 @@ export default function NavBar() {
       target: "#about",
     },
     {
-      label: "experience",
+      label: "experiences",
       target: "#experience",
     },
     {
-      label: "education",
+      label: "formations",
       target: "#education",
     },
     {
