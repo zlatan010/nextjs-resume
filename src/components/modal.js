@@ -92,16 +92,16 @@ export default function Modal() {
       }}
     >
       <h1>
-        Thank you for your time{" "}
+        Merci pour votre temps{" "}
         <span aria-label="Hi there" role="img">
           ✌
         </span>
       </h1>
-      <h2>Please fill this form, and I'll be in touch with you</h2>
+      <h2>Remplissez ce formulaire svp, et je vous recontacterai</h2>
       <form onSubmit={submitForm}>
         <ul>
           <li>
-            <label htmlFor="name">Name:</label>
+            <label htmlFor="name">Nom:</label>
           </li>
           <li>
             <input
@@ -129,7 +129,7 @@ export default function Modal() {
         </ul>
         <ul>
           <li>
-            <label htmlFor="number">Phone Number</label>
+            <label htmlFor="number">Télephone</label>
           </li>
           <li>
             <input
@@ -142,7 +142,7 @@ export default function Modal() {
         </ul>
         <ul>
           <li>
-            <label htmlFor="message">Your message:</label>
+            <label htmlFor="message">Votre message:</label>
           </li>
           <li>
             <textarea
