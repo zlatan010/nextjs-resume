@@ -14,23 +14,23 @@ export default function Experience() {
             <div className="cardCont">
               <h5>
                 <span>
-                  <FontAwesomeIcon icon={faCalendarAlt} /> 2021 - Present
+                  <FontAwesomeIcon icon={faCalendarAlt} /> 2020 - A ce jour
                 </span>
               </h5>
-              <h3>Software Engineer</h3>
-              <h4>Oktana Corporation</h4>
+              <h3>Consultant DevOps</h3>
+              <h4>AXA-IM</h4>
               <ul>
                 <li>
                   <span className="colorRed">- </span>
-                  <span>Software Development using Salesforce products</span>
+                  <span>Member de la Software Factory basée sur Azure DevOps</span>
                 </li>
                 <li>
                   <span className="colorRed">- </span>{' '}
-                  <span>UI, app, and API Development</span>
+                  <span>Implementation et MCO de la stack Elastic Cloud</span>
                 </li>
                 <li>
                   <span className="colorRed">- </span>{' '}
-                  <span>Backend NodeJS development</span>
+                  <span>Mise en place des infra cloud Azure avec ARM templates</span>
                 </li>
               </ul>
             </div>
@@ -40,20 +40,39 @@ export default function Experience() {
                   <FontAwesomeIcon icon={faCalendarAlt} /> 2019
                 </span>
               </h5>
-              <h3>Quality Assurance Assistant</h3>
-              <h4>KAR{' & '}MA S.A.C.</h4>
+              <h3>Consultant DevOps / Scrum Master</h3>
+              <h4>Aereport de Paris</h4>
               <ul>
                 <li>
                   <span className="colorRed">- </span>
-                  <span>Product quality assurance and control</span>
+                  <span>Implementation solution de supervision sur Elastic Cloud</span>
                 </li>
                 <li>
                   <span className="colorRed">- </span>{' '}
-                  <span>Supply chain management</span>
+                  <span>Lead Agile Scrum</span>
+                </li>
+              </ul>
+            </div>
+            <div className="cardCont">
+              <h5>
+                <span>
+                  <FontAwesomeIcon icon={faCalendarAlt} /> 2017
+                </span>
+              </h5>
+              <h3>Consultant DevOps</h3>
+              <h4>Carrefour</h4>
+              <ul>
+                <li>
+                  <span className="colorRed">- </span>
+                  <span>Creation et maintenance des scripts CI/CD/InfraAsCode</span>
                 </li>
                 <li>
                   <span className="colorRed">- </span>{' '}
-                  <span>Value chain analysis</span>
+                  <span>Jenkins Pipeline, Ansible roles, Docker files, Terraform</span>
+                </li>
+                <li>
+                  <span className="colorRed">- </span>{' '}
+                  <span>MCO de stack Big data {' ( '}Cloudera, ELK sur CentOS{' ) '}</span>
                 </li>
               </ul>
             </div>
