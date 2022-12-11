@@ -76,6 +76,52 @@ export default function Experience() {
                 </li>
               </ul>
             </div>
+            <div className="cardCont">
+              <h5>
+                <span>
+                  <FontAwesomeIcon icon={faCalendarAlt} /> 2016
+                </span>
+              </h5>
+              <h3>Lead Intégration/Test {'&'} Scrum Master</h3>
+              <h4>Safran</h4>
+              <ul>
+                <li>
+                  <span className="colorRed">- </span>
+                  <span>Creation et maintenance de CI/CD sur Jenkins avec Maven, Puppet, et Openstack</span>
+                </li>
+                <li>
+                  <span className="colorRed">- </span>{' '}
+                  <span>Défnir stratégie de tests, développement des tests automatiques, et execution des tests non fonctionnels</span>
+                </li>
+                <li>
+                  <span className="colorRed">- </span>{' '}
+                  <span>Gestion de l'équipe projet et des differents rituels Agile.</span>
+                </li>
+              </ul>
+            </div>
+            <div className="cardCont">
+              <h5>
+                <span>
+                  <FontAwesomeIcon icon={faCalendarAlt} /> 2014
+                </span>
+              </h5>
+              <h3>Lead Intégration continue {'&'} Test</h3>
+              <h4>Safran</h4>
+              <ul>
+                <li>
+                  <span className="colorRed">- </span>
+                  <span>Creation et maintenance de CI/CD sur Jenkins avec Maven, Puppet, et Openstack</span>
+                </li>
+                <li>
+                  <span className="colorRed">- </span>{' '}
+                  <span>Défnir stratégie de tests, développement des tests automatiques</span>
+                </li>
+                <li>
+                  <span className="colorRed">- </span>{' '}
+                  <span>Gestion du référentiel de tests et des exigences sur Testlink</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
