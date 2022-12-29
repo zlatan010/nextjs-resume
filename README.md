@@ -6,12 +6,26 @@ This project was bootstrapped with [`create-next-app`](https://github.com/vercel
 
 ## Getting Started
 
-First, run the development server:
+First, install node.js
+
+Then install next: 
+
+```bash
+npm install next
+```
+
+run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
+```
+
+If you have any SSL error on WINDOWS, please run 
+
+```bash
+set NODE_OPTIONS=--openssl-legacy-provider
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
