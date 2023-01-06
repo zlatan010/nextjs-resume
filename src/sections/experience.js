@@ -122,6 +122,75 @@ export default function Experience() {
                 </li>
               </ul>
             </div>
+            <div className="cardCont">
+              <h5>
+                <span>
+                  <FontAwesomeIcon icon={faCalendarAlt} /> 2012
+                </span>
+              </h5>
+              <h3>Ingénieur Intégration {'&'} Test</h3>
+              <h4>Safran</h4>
+              <ul>
+                <li>
+                  <span className="colorRed">- </span>
+                  <span>Mise en place des environements de tests et Prod</span>
+                </li>
+                <li>
+                  <span className="colorRed">- </span>{' '}
+                  <span>Définition, et gestion du référentiel de test et la traçabilité des exigences</span>
+                </li>
+                <li>
+                  <span className="colorRed">- </span>{' '}
+                  <span>Développement des test automatiques d'API et UI</span>
+                </li>
+              </ul>
+            </div>
+            <div className="cardCont">
+              <h5>
+                <span>
+                  <FontAwesomeIcon icon={faCalendarAlt} /> 2011
+                </span>
+              </h5>
+              <h3>Ingénieur DevOps</h3>
+              <h4>Safran</h4>
+              <ul>
+                <li>
+                  <span className="colorRed">- </span>
+                  <span>Mise en place des instances Jenkins</span>
+                </li>
+                <li>
+                  <span className="colorRed">- </span>{' '}
+                  <span>Mainteance des slaves et agents, et validation des plugins</span>
+                </li>
+                <li>
+                  <span className="colorRed">- </span>{' '}
+                  <span>Support des utilisateurs sur l'intégration continue</span>
+                </li>
+              </ul>
+            </div>
+            <div className="cardCont">
+              <h5>
+                <span>
+                  <FontAwesomeIcon icon={faCalendarAlt} /> 2010
+                </span>
+              </h5>
+              <h3>Ingénieur Intégration {'&'} Test</h3>
+              <h4>Safran</h4>
+              <ul>
+                <li>
+                  <span className="colorRed">- </span>
+                  <span>Qualification des correcions de bugs/Améliorations</span>
+                </li>
+                <li>
+                  <span className="colorRed">- </span>{' '}
+                  <span>Mise en place des environements de tests</span>
+                </li>
+                <li>
+                  <span className="colorRed">- </span>{' '}
+                  <span>Packaging des patches</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
