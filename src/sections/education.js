@@ -17,7 +17,7 @@ export default function Education() {
                   <FontAwesomeIcon icon={faCalendarAlt} /> 2021
                 </span>
               </h5>
-              <h3>Azure Administratorr</h3>
+              <h3>Azure Administrator</h3>
               <h4>Certified Azure AZ-104</h4>
             </div>
             <div className="cardCont">
