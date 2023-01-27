@@ -5,23 +5,28 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
 export default function Skills() {
   const mainTechSkills = [
-    { name: "HTML", progress: "90" },
-    { name: "CSS", progress: "90" },
-    { name: "JavaScript", progress: "95" },
-    { name: "React", progress: "60" },
-    { name: "SQL", progress: "75" },
-    { name: "Git / GitHub", progress: "50" },
+    { name: "Azure DevOps", progress: "80" },
+    { name: "Jenkins", progress: "70" },
+    { name: "Azure", progress: "80" },
+    { name: "Terraform", progress: "70" },
+    { name: "ARM", progress: "80" },
+    { name: "Git / GitHub", progress: "70" },
+    { name: "Python", progress: "65" },
+    { name: "shell", progress: "70" },
+    { name: "ElasticSearch", progress: "80" },
+    { name: "Docker", progress: "70" },
   ];
   const overallCirSkills = [
-    { name: "Web Development", progress: "90" },
-    { name: "Database Management", progress: "75" },
-    { name: "OOP", progress: "85" },
+    { name: "CI/CD", progress: "90" },
+    { name: "Infrastructure Automation", progress: "70" },
+    { name: "Cloud Infrastructure", progress: "75" },
+    { name: "Observability", progress: "70" },
   ];
   const softSkills = [
-    "TeamWork",
     "LeaderShip",
     "Communication",
-    "Problem Solving Skills",
+    "Gestion de stress",
+    "Diagnostic et analyse des incidents",
   ];
   const softwareSkills = [
     { name: "VS Code", progress: "80" },
@@ -35,12 +40,12 @@ export default function Skills() {
     <section className="container">
       <div className="containerCont sectionCont  sectionContSkills">
         <header>
-          <h2>Skills</h2>
+          <h2>Compétences</h2>
         </header>
         <div className="rowFlexRes breakMainTechOverall">
           <div className="cardContainer">
             <div className="card">
-              <h3>Main Tech</h3>
+              <h3>Outils</h3>
               <ul>
                 {mainTechSkills.map((skill, pos) => (
                   <Skill key={pos} skill={skill} />
@@ -50,7 +55,7 @@ export default function Skills() {
           </div>
           <div className="cardContainer">
             <div className="card">
-              <h3>Overall</h3>
+              <h3>Vue globale</h3>
               <ul className="rowFlexRes breakOverall">
                 {overallCirSkills.map((skill, pos) => (
                   <CircularProg key={pos} skill={skill} />
@@ -79,16 +84,6 @@ export default function Skills() {
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-        <div className="cardContainer">
-          <div className="card">
-            <h3>Software</h3>
-            <ul>
-              {softwareSkills.map((skill, pos) => (
-                <Skill key={pos} skill={skill} />
-              ))}
-            </ul>
           </div>
         </div>
       </div>
